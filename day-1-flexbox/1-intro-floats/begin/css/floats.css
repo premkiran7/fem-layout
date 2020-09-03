@@ -35,12 +35,11 @@ div img {
 .wrapper div {
   background-color: blue;
   margin: 10px;
-  display: inline-block;
 }
 
 .wrapper article {
   float: left;
-  width: 23%;
+  width: 98%;
   margin: 1%;
 }
 
@@ -50,28 +49,43 @@ div img {
 
 .wrapper .half {
   background-color: #fcf;
-  width: 48%;
-  margin: 1%;
 }
 
 .wrapper .three-quarters {
   background-color: #cff;
-  width: 73%;
-  height: 100%;
-  margin: 1%;
 }
 
 .wrapper .full {
   background-color: #ccf;
-  width: 98%;
-  margin: 1%;
 }
 
 /* grid system -- mobile first! */
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px) {
+  .wrapper div {
+    display: inline-block;
+  }
+
+  .wrapper .quarter {
+    width: 48%;
+  }
+
+  .wrapper .exception {
+    width: 98%;
+  }
+
+  .wrapper .half {
+    width: 48%;
+  }
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+  .wrapper .quarter {
+    width: 23%;
+  }
+
+  .wrapper .three-quarters {
+    width: 73%;
+  }
 }
