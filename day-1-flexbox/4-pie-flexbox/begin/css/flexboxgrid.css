@@ -1,0 +1,16 @@
+.row {
+  background-color: greenyellow;
+}
+
+.col-xs-12 {
+  background-color: blue;
+}
+
+.box {
+  background-color: orange;
+}
+
+p {
+  background-color: purple;
+  height: 100px;
+}
