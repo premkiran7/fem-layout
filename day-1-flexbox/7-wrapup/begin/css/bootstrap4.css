@@ -1,0 +1,16 @@
+.container {
+  border: 3px solid black;
+}
+
+.row {
+  border: 3px solid green;
+}
+
+.tall {
+  height: 200px;
+}
+
+[class*="col-"] {
+  border: 3px solid brown;
+  background-color: yellow;
+}
