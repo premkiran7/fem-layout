@@ -1,0 +1,127 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Niconne", cursive;
+  font-weight: normal;
+  color: #c80060;
+}
+
+body {
+  font-family: "Cabin", Arial, Geneva, sans-serif;
+  background-image: url(../img/clouds.png);
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.pie-gallery-section-title {
+  background-color: #fff6e0;
+  padding: 3% 0 0 5%;
+}
+
+.pie-gallery-section {
+  background-color: #fff6e0;
+  border-bottom-left-radius: 10px;
+  padding: 4% 0 4% 0;
+}
+
+nav {
+  background: url(../img/scallop.png) repeat-x;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #e6bf98;
+  padding: 0.75em;
+  margin: 12px 0 0 0;
+  border-bottom: 3px solid #cc8850;
+  overflow: auto;
+}
+
+nav a {
+  color: #c80060;
+  text-decoration: none;
+  padding-left: 3.333333%;
+}
+
+nav a:hover {
+  color: #00c4c7;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.col-2 {
+  flex: 0 0 10%;
+}
+
+ul .row {
+  flex-wrap: wrap;
+}
+
+li {
+  flex: 0 0 100%;
+}
+
+img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+footer {
+  background-color: #00cdd1;
+  color: white;
+  margin: 2% 0 0 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 3em;
+  border-bottom: 2px dotted #c80060;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+@media (min-width: 550px) {
+  li {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 850px) {
+  li {
+    flex: 0 0 33%;
+  }
+}
+
+/* The item is sized according to its width and height properties, but grows to absorb any extra
+free space in the flex container, and shrinks to its minimum size to fit the container. This is
+equivalent to setting "flex: 1 1 auto" */
+
+/* li {
+  flex: auto;
+} */

@@ -159,3 +159,10 @@ h2 {
 h3 {
   font-size: 2em;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) {
+}
